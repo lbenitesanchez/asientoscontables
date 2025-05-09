@@ -26,6 +26,9 @@ export const Dashboard: React.FC = () => {
   return (
     <section aria-label="Dashboard" className="mb-8">
       <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+      <p className="mb-6 text-base text-gray-600 dark:text-gray-300 max-w-2xl">
+        El dashboard muestra un resumen visual de tus transacciones, el balance general y los errores detectados. Es la mejor forma de monitorear rápidamente el estado contable de tu empresa y detectar posibles inconsistencias o áreas que requieren atención.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* KPI: Transacciones */}
         <div className="group relative bg-gradient-to-tr from-blue-100/80 via-white to-blue-200/80 dark:from-blue-900/60 dark:to-blue-700/60 rounded-2xl shadow-xl p-7 flex flex-col items-start transition-transform duration-200 hover:-translate-y-1 hover:shadow-2xl cursor-pointer">
